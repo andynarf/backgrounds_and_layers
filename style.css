@@ -177,13 +177,14 @@ table {
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
-
-#sp-searchtext { width:100px; height:16px; border:0 none; padding:2px 20px; color:#fff; }
+/* search */
+#sp-searchtext { width:140px; height:20px; border:1px solid gray ; border-radius:40%; padding:2px 20px; color:#fff;margin-top: 7px;margin-left:4px; }
 #g-search .sp-label label { display:none; margin:0; }
-/* .globalheader-js #sp-searchtext { padding:0; color:#fff; background:none; }  <<<<<< transaparencia */
+.globalheader-js #sp-searchtext { padding:0; color:#fff; background:none; } /* <<<<<< transaparencia */
 
+
+/* li */
 #globalheader #globalnav li { display:inline; }
-/* #globalheader #globalnav li a { float:left; width:102px; height:36px;} */
 
 #globalheader #globalnav li a { float:left; width:102px; height:36px; overflow:hidden; text-indent:-9999px; background:url(http://images.apple.com/global/nav/images/globalnav.png) no-repeat; cursor:pointer; }
 
