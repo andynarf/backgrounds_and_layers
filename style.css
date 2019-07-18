@@ -143,15 +143,18 @@ table {
     background-repeat: no-repeat;
     background-position: center bottom;
     display: flex;
-    justify-content: center;
+    flex-direction:column;
     align-items: center;
     margin-bottom: 4px;
 }
-
+.medium{
+    width:50%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 22%;
+}
 .promos ul {
     display: flex;
-
-
 }
 
 .promos li {
@@ -161,7 +164,7 @@ table {
 
 }
 
-.cta:hover {
+.medium:hover {
     border-bottom: 1px solid white;
 }
 
@@ -171,10 +174,11 @@ table {
 .globalheader-js {
     background-color: #666666;
     position: relative;
+    align-self:flex-start;
     
     width: 980px;
     height: 36px;
-    margin: 18px auto;
+    margin: 18px auto 100px ;
     text-align: left;
     border-radius: 4px;
     box-shadow: black 0 1px 2px;
@@ -186,11 +190,13 @@ table {
     width: 140px;
     height: 20px;
     border: 1px solid gray;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
     border-radius: 12px;
     padding: 2px 20px;
     color: #fff;
     margin-top: 7px;
-    margin-left: 4px;
+    margin-left: 10px;
 }
 
 #g-search .sp-label label {
@@ -215,8 +221,11 @@ table {
     width: 102px;
     height: 36px;
     overflow: hidden;
+    border-right: 1px solid #6e6e6e;
+    border-left:0.5px solid gray;
     text-indent: -9999px;
     background: url(http://images.apple.com/global/nav/images/globalnav.png) no-repeat;
+    background-image: linear-gradient(transparent 50%,gray 50%);
     cursor: pointer;
 }
 
@@ -267,7 +276,10 @@ table {
 /* footer */
 
 footer {
-    font-size: 0.8rem;
+    font-size: 0.6em ;
+    color: #6e6e6e;
+    font-family: 'Lucida Grande';
+    line-height: 1.2;
 }
 
 footer li {
@@ -283,18 +295,21 @@ footer li #img {
 
 .left a {
     text-decoration: none;
+    color:#08c;
 }
 
 .right a {
     text-decoration: none;
     padding-right: 5px;
     border-right: 1px solid #666666;
+    color:#08c;
 }
 
 .left {
     float: left;
     width: 45%;
     margin-left: 10%;
+    
 
 
 }
