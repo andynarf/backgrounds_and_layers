@@ -155,13 +155,13 @@ table {
 }
 .promos ul {
     display: flex;
+    background-color: blueviolet;
 }
 
 .promos li {
     list-style-type: none;
     width: 25%;
-
-
+    
 }
 
 .medium:hover {
@@ -187,7 +187,7 @@ table {
 
 /* search */
 #sp-searchtext {
-    width: 140px;
+    width: 130px;
     height: 20px;
     border: 1px solid gray;
     border-bottom: 1px solid white;
@@ -198,6 +198,7 @@ table {
     margin-top: 7px;
     margin-left: 10px;
 }
+
 
 #g-search .sp-label label {
     display: none;
@@ -224,9 +225,12 @@ table {
     border-right: 1px solid #6e6e6e;
     border-left:0.5px solid gray;
     text-indent: -9999px;
-    background: url(http://images.apple.com/global/nav/images/globalnav.png) no-repeat;
+    /* background: url(http://images.apple.com/global/nav/images/globalnav.png) no-repeat; */
     background-image: linear-gradient(transparent 50%,gray 50%);
     cursor: pointer;
+}
+.navigation li a :hover{
+    background-color: #434040;
 }
 
 
